@@ -5,14 +5,12 @@
     box-sizing: border-box;
     font-weight: 600;
 }
-
 :root{
     /* --bg-color: #C3B4D9;
      --second-bg-color: #EEAECA;  */
      --text-color: white; 
     --search-input: #555
 } 
-
 body{
     background:#bde0fe;
     
