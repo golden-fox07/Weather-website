@@ -122,7 +122,6 @@ function updateForecastsItems(WeatherDate){
         month: 'short', 
     }
     const dateResult = dateTaken.toLocaleDateString('en-US', dateOptions)
-
     const forecastItem = `
         <div class="forecast-item">
           <h5 class="forecast-item-date regular-txt">${dateResult}</h5>
