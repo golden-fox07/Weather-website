@@ -37,7 +37,7 @@ cityInput.addEventListener('keydown', (event) => {
 
 //  Fetch data from the OpenWeatherMap API
 async function getFetchData(endPoint, city){
-    const api_url = `http://api.openweathermap.org/data/2.5/${endPoint}?q=${city}&appid=${apiKey}&units=metric`;
+    const api_url = `https://api.openweathermap.org/data/2.5/${endPoint}?q=${city}&appid=${apiKey}&units=metric`;
     const response = await fetch(api_url)
     return response.json()
 }
